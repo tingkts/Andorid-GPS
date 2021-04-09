@@ -9,6 +9,7 @@ HIDL Passthrough mode
 <img src="https://github.com/tingkts/Andorid-GPS/blob/main/assets/GPS%20HIDL%20HAL%20HW%20-%20Passthrough%20mode.png" style="zoom:80%" />
 
 
+<br/>
 
 <b><u><font size=3 face="Roboto" color=#1d3557>u-blox GPS</font></u></b>
 
@@ -19,6 +20,7 @@ HIDL Binderized mode
 <img src="https://github.com/tingkts/Andorid-GPS/blob/main/assets/GPS%20HIDL%20HAL%20HW%20-%20Binderized%20mode.png" style="zoom:80%" />
 
 
+<br/>
 
 <b><u><font size=3 face="Roboto" color=#1d3557>Case Study</font></u></b>
 <b><font size=3 face="Roboto" color=#1d3557> : How does android system choose a HIDL service, if there is more than one service in the system ?</font></b>
