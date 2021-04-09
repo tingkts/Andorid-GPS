@@ -1,8 +1,6 @@
 ### Vendor GPS HAL example
 
-
-#### <u>EC25 GPS</u>
-
+<b><u><font size=3 face="Roboto" color=#1d3557>EC25 GPS</font></u></b>
 
 using AOSP default [android.hardware.gnss@1.0-service](https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/android10-mainline-release/gnss/1.0/default/) as the server of default impl. [android.hardware.gnss@1.0-impl](https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/android10-mainline-release/gnss/1.0/default/) to provide [android.hardware.gnss@1.0](https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/android10-mainline-release/gnss/1.0) HIDL interface implementation.
 
@@ -12,8 +10,7 @@ HIDL Passthrough mode
 
 
 
-
-#### <u>u-blox GPS</u>
+<b><u><font size=3 face="Roboto" color=#1d3557>u-blox GPS</font></u></b>
 
 The vendor has proprietary implementation [android.hardware.gnss@2.0-service-ubx]() as the server of [android.hardware.gnss@2.0-impl-ubx]() to provide [android.hardware.gnss@2.0](https://android.googlesource.com/platform/hardware/interfaces/+/refs/heads/android10-mainline-release/gnss/1.0) HIDL interface implementation.
 
@@ -22,7 +19,9 @@ HIDL Binderized mode
 <img src="https://github.com/tingkts/Andorid-GPS/blob/main/assets/GPS%20HIDL%20HAL%20HW%20-%20Binderized%20mode.png" style="zoom:80%" />
 
 
-#### <u>Case Study</u> : How does android system choose a HIDL service, if there is more than one service in the system ?
+
+<b><u><font size=3 face="Roboto" color=#1d3557>Case Study</font></u></b>
+<b><font size=3 face="Roboto" color=#1d3557> : How does android system choose a HIDL service, if there is more than one service in the system ?</font></b>
 
 Android will first choose a higher-level HIDL service/implementation.
 
